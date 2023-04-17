@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="">
+    <!-- <link rel="stylesheet" href="business.html"> -->
+
+    <script src="https://kit.fontawesome.com/9c48453982.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="/business.css">
+</head>
+<body>
+    <div class="container-fluid" id="project">
+
+        <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top" id="navbar">
+            <div class="container-fluid">
+            <div class="top">
+            <a class="navbar-brand text-light" href="business_home.html">Ecommerce</a>    
+            </div>
+    
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon" id="toggle"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">E-Commercial</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body" id="offcanvas">
+                        <ul class="navbar-nav d-flex pe-3 justify-content-column ms-auto" id="link">
+                            <li class="nav-item" id="home">
+                            <a class="nav-link active" href="business_home.html">Home</a>
+                            </li>
+                            <li class="nav-item" id="acc">
+                            <a class="nav-link" href="#">Account</a>
+                            </li>
+
+                            <li class="nav-item" id="cart">
+                                <a class="nav-link" href="cart.html">
+                                    <i class="fa-solid fa-cart-plus cart"></i>cart <span>0</span>
+                                </a>
+                            </li>  
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="products-container">
+        <div class="product-header">
+            <h5 class="product-title">PRODUCT</h5>
+            <h5 class="price">PRICE</h5>
+            <h5 class="quantity">QUANTITY</h5>
+            <h5 class="total">TOTAL</h5>
+        </div>
+        <div class="products"></div>
+    </div>
+    
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9c48453982.js" crossorigin="anonymous"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="business.js"></script>
+</body>
+</html>
